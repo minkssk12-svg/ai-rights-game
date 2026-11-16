@@ -1,0 +1,41 @@
+{
+  "minArticles": 3,
+  "maxArticles": 5,
+  "templates": [
+    {
+      "id": "robot",
+      "tab": "🤖 AI 로봇은",
+      "before": "AI 로봇은",
+      "after": "지켜야 한다.",
+      "words": ["사람의 사생활을", "모든 사람의 평등을", "사람의 안전을", "사람의 일자리를", "사람의 존엄을", "설명을 들을 권리를"]
+    },
+    {
+      "id": "maker",
+      "tab": "👨‍💻 만드는 사람은",
+      "before": "AI를 만드는 사람은",
+      "after": "한다.",
+      "words": ["여러 사람의 자료로 골고루 가르쳐야", "찍을 때 반드시 알려 주도록 만들어야", "AI가 정한 이유를 설명할 수 있게 만들어야", "나쁘게 쓰이지 않도록 미리 막아야", "얼굴로 낯선 사람을 찾는 기능을 만들지 말아야"]
+    },
+    {
+      "id": "user",
+      "tab": "🧑‍🤝‍🧑 쓰는 우리는",
+      "before": "AI를 쓰는 우리는",
+      "after": "한다.",
+      "words": ["찍기 전에 허락을 받아야", "AI의 말을 무조건 믿지 않아야", "가짜 영상을 만들거나 퍼뜨리지 않아야", "AI 안경으로 다른 사람을 몰래 찍지 않아야", "AI보다 사람과의 만남을 소중히 여겨야"]
+    },
+    {
+      "id": "free",
+      "tab": "✏️ 직접 쓰기",
+      "before": "",
+      "after": "",
+      "words": []
+    }
+  ],
+  "titles": ["우리의 AI 인권 선언문", "로봇시티 인권 약속", "사람을 지키는 AI 약속"],
+  "themes": [
+    { "id": "sky",    "name": "하늘", "bg": "linear-gradient(160deg, #e3f2ff 0%, #b9dcff 100%)", "accent": "#1c5fb8" },
+    { "id": "forest", "name": "숲",   "bg": "linear-gradient(160deg, #eafbe7 0%, #bfe8b5 100%)", "accent": "#2b7a2b" },
+    { "id": "space",  "name": "우주", "bg": "linear-gradient(160deg, #2b2a6b 0%, #120f3a 100%)", "accent": "#ffd43b", "dark": true },
+    { "id": "sunset", "name": "노을", "bg": "linear-gradient(160deg, #fff1e0 0%, #ffc9a8 100%)", "accent": "#c4511b" }
+  ]
+}

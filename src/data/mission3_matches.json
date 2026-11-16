@@ -1,0 +1,62 @@
+{
+  "people": [
+    { "id": "low-vision", "icon": "🧑‍🦯", "label": "눈이 잘 보이지 않는 지수", "need": "혼자서 장을 보고 길을 다니고 싶어요." },
+    { "id": "grandma",    "icon": "👵",   "label": "혼자 사는 할머니",       "need": "아플 때 도와줄 사람이 곁에 없어요." },
+    { "id": "disaster",   "icon": "🏚️",   "label": "무너진 건물에 갇힌 사람", "need": "구조대가 들어가기 너무 위험해요." },
+    { "id": "new-friend", "icon": "🧒",   "label": "한국어가 서툰 전학생 아딜", "need": "친구들과 이야기하고 수업을 이해하고 싶어요." },
+    { "id": "worker",     "icon": "👷",   "label": "위험한 공장의 노동자",    "need": "뜨겁고 무거운 물건을 다루다 다칠까 걱정돼요." }
+  ],
+  "robots": [
+    {
+      "id": "reader-glasses",
+      "icon": "👓",
+      "label": "글자와 길을 읽어 주는 AI 안경",
+      "tag": "실제로 쓰이고 있어요",
+      "matchPeople": ["low-vision"],
+      "rights": ["dignity", "equality"],
+      "explanation": "눈앞의 글자, 신호등, 물건을 소리로 알려 줘요. 지수는 다른 사람 도움 없이도 혼자 장을 보고 길을 다닐 수 있어요.",
+      "flipQuestion": "그런데 이 안경이 지수 주변 사람들의 얼굴까지 계속 찍어 저장한다면?"
+    },
+    {
+      "id": "care-robot",
+      "icon": "🤖",
+      "label": "말벗이 되어 주는 돌봄 로봇",
+      "tag": "실제로 쓰이고 있어요",
+      "matchPeople": ["grandma"],
+      "rights": ["safety", "dignity"],
+      "explanation": "할머니와 이야기를 나누고, 약 먹을 시간을 알려 줘요. 할머니가 쓰러지면 바로 가족과 119에 알려요.",
+      "flipQuestion": "로봇이 있다고 가족들이 할머니를 덜 찾아온다면? 로봇이 할머니 방을 하루 종일 찍는다면?"
+    },
+    {
+      "id": "rescue-robot",
+      "icon": "🚁",
+      "label": "무너진 건물을 살피는 구조 로봇",
+      "tag": "",
+      "matchPeople": ["disaster"],
+      "rights": ["safety"],
+      "explanation": "사람이 들어가기 위험한 곳에 먼저 들어가서 갇힌 사람을 찾아내요. 구조대원도, 갇힌 사람도 더 안전해져요.",
+      "flipQuestion": "구조 로봇이 찍은 다친 사람의 영상이 허락 없이 인터넷에 퍼진다면?"
+    },
+    {
+      "id": "translator",
+      "icon": "🗣️",
+      "label": "실시간 통역 AI",
+      "tag": "실제로 쓰이고 있어요",
+      "matchPeople": ["new-friend"],
+      "rights": ["equality", "know"],
+      "explanation": "아딜의 말을 한국어로, 친구들의 말을 아딜의 나라 말로 바로 바꿔 줘요. 아딜도 수업 내용을 알고, 친구들과 어울릴 수 있어요.",
+      "flipQuestion": "통역 AI가 말을 잘못 옮겨서 오해가 생긴다면? 친구들이 AI에만 맡기고 직접 말을 걸지 않는다면?"
+    },
+    {
+      "id": "robot-arm",
+      "icon": "🦾",
+      "label": "위험한 일을 대신하는 로봇 팔",
+      "tag": "실제로 쓰이고 있어요",
+      "matchPeople": ["worker"],
+      "rights": ["safety", "work"],
+      "explanation": "뜨겁고 무거운 물건은 로봇 팔이 옮기고, 노동자는 기계를 살피고 관리하는 일을 해요. 다칠 위험이 줄어들어요.",
+      "flipQuestion": "로봇이 모든 일을 하게 되어 노동자가 일자리를 잃는다면?"
+    }
+  ],
+  "notMatchMessage": "음… {robot}이(가) {person}에게 가장 필요한 도움일까? {person}의 바람을 다시 읽고 다른 로봇도 살펴봐."
+}

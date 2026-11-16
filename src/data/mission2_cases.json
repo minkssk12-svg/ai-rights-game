@@ -1,0 +1,103 @@
+{
+  "minToComplete": 2,
+  "causes": [
+    { "id": "biased_data", "icon": "📊", "label": "한쪽으로 치우친 자료로 배웠어요" },
+    { "id": "no_consent",  "icon": "✋", "label": "허락 없이 정보를 모았어요" },
+    { "id": "no_human",    "icon": "👀", "label": "사람이 확인하지 않았어요" },
+    { "id": "no_explain",  "icon": "❓", "label": "이유나 사실을 알려 주지 않았어요" },
+    { "id": "misuse",      "icon": "😈", "label": "사람이 AI를 나쁜 일에 썼어요" },
+    { "id": "over_trust",  "icon": "🙈", "label": "AI를 너무 믿었어요" }
+  ],
+  "cases": [
+    {
+      "id": "glasses-hidden-camera",
+      "icon": "👓",
+      "title": "불빛을 가린 AI 안경",
+      "basis": "similar_real",
+      "basisLabel": "실제 유사 사례 있음",
+      "teacherNote": "2026년 국내외에서 AI 글래스의 '촬영 중' 표시등을 가리고 다른 사람을 무단 촬영해 SNS에 올린 혐의 사건들이 보도됨. 정부는 촬영 시 LED 자동 점멸, 표시등 훼손 시 카메라 비활성화 같은 기준을 논의함(2026년 7월 보도). 수업에서는 범죄의 구체적 내용은 다루지 않음.",
+      "story": "어떤 사람이 AI 안경의 '촬영 중' 불빛을 테이프로 가렸어요. 그리고 길에서 만난 사람들을 몰래 찍어 SNS에 올렸어요. 찍힌 사람들은 한참 뒤에야 그 사실을 알았어요.",
+      "victimOptions": ["찍힌 사람들", "안경을 쓴 사람", "안경 회사"],
+      "victims": ["찍힌 사람들"],
+      "answerRights": ["privacy", "dignity"],
+      "answerCauses": ["no_consent", "misuse"],
+      "explanation": "AI 안경은 손을 쓰지 않고도 찍을 수 있어서 편리하지만, 찍히는 사람은 알아채기 어려워요. 그래서 '촬영 중' 불빛 같은 알림이 꼭 필요해요. 그 불빛을 가리는 건 다른 사람의 권리를 무시하는 행동이에요.",
+      "reflectQuestion": "AI 안경 회사와 안경을 쓰는 사람은 각각 무엇을 지켜야 할까?"
+    },
+    {
+      "id": "glasses-face-search",
+      "icon": "🔍",
+      "title": "얼굴만 보면 다 알려 주는 안경",
+      "basis": "similar_real",
+      "basisLabel": "실제 유사 사례 있음",
+      "teacherNote": "2024년 해외 대학생들이 스마트 안경과 얼굴 검색을 연결해 낯선 사람의 이름·주소 등을 알아내는 실험을 공개함. 2026년에는 한 대기업이 안경에 얼굴인식 기능을 넣으려 한다는 보도가 나오자 70여 개 시민단체가 중단을 요구함.",
+      "story": "한 사람이 얼굴 검색 기능이 있는 AI 안경을 썼어요. 길에서 처음 본 사람을 쳐다보기만 했는데, 안경이 그 사람의 이름과 다니는 학교, 사는 동네까지 알려 주었어요.",
+      "victimOptions": ["처음 본 사람", "안경을 쓴 사람", "길을 지나던 모든 사람"],
+      "victims": ["처음 본 사람", "길을 지나던 모든 사람"],
+      "answerRights": ["privacy", "safety"],
+      "answerCauses": ["no_consent", "misuse"],
+      "explanation": "얼굴은 바꿀 수 없는 나만의 정보예요. 누구나 안경으로 낯선 사람의 정보를 찾을 수 있다면, 모르는 사람이 나를 찾아올 수도 있어요. 그래서 많은 사람이 이 기능을 걱정하고 있어요.",
+      "reflectQuestion": "이 안경이 '좋은 일'에만 쓰이게 하려면 어떤 규칙이 필요할까?"
+    },
+    {
+      "id": "glasses-exam",
+      "icon": "📝",
+      "title": "시험장의 AI 안경",
+      "basis": "similar_real",
+      "basisLabel": "실제 유사 사례 있음",
+      "teacherNote": "2026년 국내외 시험(어학시험 등)에서 AI 글래스를 이용한 부정행위 의혹이 보도됨.",
+      "story": "시험 시간에 한 사람이 AI 안경을 쓰고 문제를 보았어요. 안경 속 AI가 정답을 몰래 알려 주었어요. 열심히 공부한 다른 사람들은 이 사실을 몰랐어요.",
+      "victimOptions": ["열심히 공부한 사람들", "시험 감독 선생님", "AI 안경 회사"],
+      "victims": ["열심히 공부한 사람들"],
+      "answerRights": ["equality"],
+      "answerCauses": ["misuse", "no_human"],
+      "explanation": "모두가 같은 조건에서 시험을 봐야 공정해요. AI를 몰래 쓰면 열심히 노력한 사람이 손해를 보게 돼요. AI 자체보다 '어떻게 쓰느냐'가 중요하다는 걸 보여 주는 사건이에요.",
+      "reflectQuestion": "AI 안경을 써도 되는 곳과 쓰면 안 되는 곳은 어떻게 나눌 수 있을까?"
+    },
+    {
+      "id": "hiring-ai",
+      "icon": "🏢",
+      "title": "취업 도우미 AI의 이상한 선택",
+      "basis": "similar_real",
+      "basisLabel": "실제 유사 사례 있음",
+      "teacherNote": "과거 합격자 자료를 학습한 채용 AI가 특정 성별 지원자에게 불리한 점수를 준 사례들이 보도된 바 있음(특정 기업명 미기재).",
+      "story": "어느 회사가 AI로 지원서를 골랐어요. 그런데 AI가 특정한 사람들의 지원서를 자꾸 떨어뜨렸어요. 알고 보니 AI는 예전 합격자 자료만 보고 배웠는데, 예전 합격자는 대부분 한쪽 사람들이었어요.",
+      "victimOptions": ["떨어진 지원자", "회사 사장님", "AI 개발자"],
+      "victims": ["떨어진 지원자"],
+      "answerRights": ["equality", "work"],
+      "answerCauses": ["biased_data", "no_human"],
+      "explanation": "AI는 배운 자료를 따라 해요. 자료가 한쪽으로 치우치면 AI도 치우친 결정을 내려요. 그래서 여러 사람의 자료로 골고루 가르치고, 사람이 결과를 다시 확인해야 해요.",
+      "reflectQuestion": "떨어진 사람은 'AI가 왜 나를 떨어뜨렸는지' 알 수 있어야 할까?"
+    },
+    {
+      "id": "robot-pet",
+      "icon": "🐶",
+      "title": "모든 말을 듣는 반려 로봇",
+      "basis": "fictional",
+      "basisLabel": "가상 이야기",
+      "teacherNote": "",
+      "story": "서연이네 반려 로봇은 집에서 나누는 대화를 모두 녹음해요. 그 녹음은 로봇 회사로 보내져 광고를 만드는 데 쓰였어요. 서연이네 가족은 그런 줄 몰랐어요.",
+      "victimOptions": ["서연이네 가족", "로봇 회사", "광고를 보는 사람들"],
+      "victims": ["서연이네 가족"],
+      "answerRights": ["privacy", "know"],
+      "answerCauses": ["no_consent", "no_explain"],
+      "explanation": "집은 가장 편하게 지내야 하는 곳이에요. 그런데 대화가 몰래 녹음되어 다른 곳에 쓰인다면 사생활이 사라져요. 회사는 무엇을 녹음하고 어디에 쓰는지 분명히 알려 주고 허락을 받아야 해요.",
+      "reflectQuestion": "우리 집에 있는 AI 기기는 무엇을 듣고, 무엇을 저장하고 있을까?"
+    },
+    {
+      "id": "hospital-ai",
+      "icon": "🏥",
+      "title": "순서를 정하는 병원 AI",
+      "basis": "fictional",
+      "basisLabel": "가상 이야기",
+      "teacherNote": "",
+      "story": "병원 AI가 진료 순서를 정해요. 그런데 사투리를 쓰거나 말이 느린 할머니의 증상은 자꾸 '급하지 않음'으로 분류했어요. 의사 선생님은 AI 결과를 그대로 따랐어요.",
+      "victimOptions": ["말이 느린 할머니", "의사 선생님", "병원 AI"],
+      "victims": ["말이 느린 할머니"],
+      "answerRights": ["equality", "safety"],
+      "answerCauses": ["biased_data", "over_trust"],
+      "explanation": "AI가 여러 사람의 말투를 골고루 배우지 못하면 어떤 사람에게는 불리한 결정을 내려요. 특히 건강과 생명에 관한 일은 AI 결과를 그대로 믿지 말고 사람이 꼭 다시 살펴야 해요.",
+      "reflectQuestion": "AI의 결정을 사람이 꼭 다시 확인해야 하는 일에는 무엇이 있을까?"
+    }
+  ]
+}

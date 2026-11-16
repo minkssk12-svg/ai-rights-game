@@ -1,0 +1,8 @@
+[
+  { "id": "privacy",  "icon": "🔒", "name": "사생활", "desc": "내 정보와 모습을 지킬 권리",          "color": "#5b7cfa" },
+  { "id": "equality", "icon": "⚖️", "name": "평등",   "desc": "차별받지 않을 권리",                  "color": "#f59f00" },
+  { "id": "safety",   "icon": "🛡️", "name": "안전",   "desc": "다치지 않고 안전하게 살 권리",         "color": "#37b24d" },
+  { "id": "work",     "icon": "💼", "name": "일",     "desc": "일하고 생활할 권리",                  "color": "#ae6a3a" },
+  { "id": "dignity",  "icon": "🙂", "name": "존엄",   "desc": "사람답게 존중받을 권리",               "color": "#e64980" },
+  { "id": "know",     "icon": "💬", "name": "알 권리", "desc": "왜 그렇게 정했는지 설명 들을 권리",    "color": "#7048e8" }
+]
